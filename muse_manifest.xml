@@ -1,14 +1,14 @@
-<manifest alg="2" build="2015.2.1.352" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="nachoneit.github.io" resolutions="1x,2x" timestamp="1488288230323">
+<manifest alg="2" build="2015.2.1.352" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="nachoneit.github.io" resolutions="1x,2x" timestamp="1488289859975">
   <folder name="css">
     <file name="site_global.css" crc="3784438662"/>
-    <file name="master_master.css" crc="62714934" ref="lista:entradas:contacto-email:index:perfil:información:rrpp"/>
-    <file name="lista.css" crc="327728312" ref="lista"/>
-    <file name="entradas.css" crc="3845950422" ref="entradas"/>
-    <file name="contacto-email.css" crc="4000194061" ref="contacto-email"/>
-    <file name="index.css" crc="4202771479" ref="index"/>
-    <file name="perfil.css" crc="3950643029" ref="perfil"/>
-    <file name="informaci_n.css" crc="341077119" ref="información"/>
-    <file name="rrpp.css" crc="408349515" ref="rrpp"/>
+    <file name="master_master.css" crc="450037502" ref="lista:entradas:contacto-email:index:perfil:información:rrpp"/>
+    <file name="lista.css" crc="476562975" ref="lista"/>
+    <file name="entradas.css" crc="3833137521" ref="entradas"/>
+    <file name="contacto-email.css" crc="3948093713" ref="contacto-email"/>
+    <file name="index.css" crc="326051192" ref="index"/>
+    <file name="perfil.css" crc="83065239" ref="perfil"/>
+    <file name="informaci_n.css" crc="427936946" ref="información"/>
+    <file name="rrpp.css" crc="504090315" ref="rrpp"/>
   </folder>
   <folder name="assets">
     <file name="mobile-menu.mulib" crc="95576157" seo="true" mt="1422915314000"/>
@@ -21,7 +21,6 @@
     <file name="pie.js" crc="3831537696" ref="index"/>
     <file name="jquery.watch.js" crc="3842844514" ref="index:entradas:perfil:información:contacto-email:rrpp:lista"/>
     <file name="webpro.js" crc="4067903014" ref="index:entradas:perfil:información:contacto-email:rrpp:lista"/>
-    <file name="musewpdisclosure.js" crc="338211507" ref="index:entradas:perfil:información:contacto-email:rrpp:lista"/>
     <file name="jquery.musemenu.js" crc="4150485998" ref="index:entradas:perfil:información:contacto-email:rrpp:lista"/>
     <file name="musewpslideshow.js" crc="4265225696" ref="index:entradas:perfil:información:contacto-email:rrpp:lista"/>
     <file name="jquery.museoverlay.js" crc="4075157096" ref="index:entradas:perfil:información:contacto-email:rrpp:lista"/>
@@ -66,11 +65,11 @@
     <file name="casino contacto.png" crc="3973111191" seo="true" ref="información"/>
     <file name="casino contacto_2x.png" crc="220300649" seo="true" ref="información"/>
   </folder>
-  <file name="index.html" crc="3976872730" seo="true" mt="1488288142002" redirect="true"/>
-  <file name="entradas.html" crc="319190770" seo="true" mt="1488288142002" redirect="true"/>
-  <file name="perfil.html" crc="115545851" seo="true" mt="1488288142002" redirect="true"/>
-  <file name="información.html" crc="460266858" seo="true" mt="1488288142002" redirect="true"/>
-  <file name="contacto-email.html" crc="4267771185" seo="true" mt="1488288142002" redirect="true"/>
-  <file name="rrpp.html" crc="4168475156" seo="true" mt="1488288142002" redirect="true"/>
-  <file name="lista.html" crc="3945504350" seo="true" mt="1488288142002" redirect="true"/>
+  <file name="index.html" crc="255891109" seo="true" mt="1488289839518" redirect="true"/>
+  <file name="entradas.html" crc="4084988278" seo="true" mt="1488289839518" redirect="true"/>
+  <file name="perfil.html" crc="352595257" seo="true" mt="1488289839518" redirect="true"/>
+  <file name="información.html" crc="4190230261" seo="true" mt="1488289839518" redirect="true"/>
+  <file name="contacto-email.html" crc="351184460" seo="true" mt="1488289839518" redirect="true"/>
+  <file name="rrpp.html" crc="3805312520" seo="true" mt="1488289839518" redirect="true"/>
+  <file name="lista.html" crc="3980336995" seo="true" mt="1488289839518" redirect="true"/>
 </manifest>
