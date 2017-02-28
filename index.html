@@ -18,9 +18,9 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <link rel="shortcut icon" href="images/master-favicon.ico?crc=3970250620"/>
   <title>Inicio</title>
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3784438662"/>
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=427717540"/>
   <link rel="stylesheet" type="text/css" href="css/master_master.css?crc=96148270"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4148626517" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4126891175" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
@@ -42,12 +42,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       <div class="colelem" id="u6897"><!-- simple frame --></div>
       <div class="colelem" id="u6906"><!-- simple frame --></div>
      </div>
-    </div>
-    <div class="clearfix colelem" id="pu1058"><!-- group -->
-     <div class="clip_frame grpelem" id="u1058"><!-- image -->
-      <img class="block" id="u1058_img" src="images/le%20chic.png?crc=4202031814" data-hidpi-src="images/le%20chic_2x.png?crc=3877788796" alt="" width="342" height="193"/>
-     </div>
-     <div class="PamphletWidget clearfix grpelem" id="pamphletu8337"><!-- none box -->
+     <div class="PamphletWidget clearfix mse_pre_init" id="pamphletu8337"><!-- none box -->
       <div class="ThumbGroup clearfix grpelem" id="u8351"><!-- none box -->
        <div class="popup_anchor">
         <div class="Thumb popup_element" id="u8353"><!-- simple frame --></div>
@@ -81,6 +76,9 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
        </div>
       </div>
      </div>
+    </div>
+    <div class="clip_frame colelem" id="u1058"><!-- image -->
+     <img class="block" id="u1058_img" src="images/le%20chic.png?crc=4202031814" data-hidpi-src="images/le%20chic_2x.png?crc=3877788796" alt="" width="342" height="193"/>
     </div>
     <div class="clip_frame colelem" id="u1105"><!-- image -->
      <img class="block" id="u1105_img" src="images/bestiario.png?crc=4181900043" data-hidpi-src="images/bestiario_2x.png?crc=4091769230" alt="" width="342" height="193"/>
@@ -130,9 +128,10 @@ Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized');
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
 Muse.Utils.initWidget('#pamphletu8337', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu8337 */
-$('#u168-bw').registerPositionScrollEffect([{"in":[-Infinity,0],"speed":[null,0]},{"in":[0,Infinity],"speed":[null,0]}]);/* scroll effect */
-$('#u223-4').registerPositionScrollEffect([{"in":[-Infinity,0],"speed":[0,0]},{"in":[0,Infinity],"speed":[0,0]}]);/* scroll effect */
-$('#u7122').registerPositionScrollEffect([{"in":[-Infinity,0],"speed":[1,0]},{"in":[0,Infinity],"speed":[0,0]}]);/* scroll effect */
+$('#u168-bw').registerPositionScrollEffect([{"speed":[null,0],"in":[-Infinity,0]},{"speed":[null,0],"in":[0,Infinity]}]);/* scroll effect */
+$('#u223-4').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,0]},{"speed":[0,0],"in":[0,Infinity]}]);/* scroll effect */
+$('#u7122').registerPositionScrollEffect([{"speed":[1,0],"in":[-Infinity,0]},{"speed":[0,0],"in":[0,Infinity]}]);/* scroll effect */
+$('#pamphletu8337').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,0]},{"speed":[0,0],"in":[0,Infinity]}]);/* scroll effect */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
