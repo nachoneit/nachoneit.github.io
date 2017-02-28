@@ -19,8 +19,8 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Perfil</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3784438662"/>
-  <link rel="stylesheet" type="text/css" href="css/master_master.css?crc=450037502"/>
-  <link rel="stylesheet" type="text/css" href="css/perfil.css?crc=83065239" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_master.css?crc=96148270"/>
+  <link rel="stylesheet" type="text/css" href="css/perfil.css?crc=406534537" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
@@ -54,7 +54,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      </div>
      <div class="popup_anchor" id="u8338popup">
       <div class="ContainerGroup clearfix" id="u8338"><!-- stack box -->
-       <div class="Container clearfix grpelem" id="u8341"><!-- group -->
+       <div class="Container invi clearfix grpelem" id="u8341"><!-- group -->
         <nav class="MenuBar clearfix grpelem" id="menuu8395"><!-- vertical box -->
          <div class="MenuItemContainer borderbox clearfix colelem" id="u8396"><!-- horizontal box -->
           <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox clearfix grpelem" id="u8399" href="index.html"><!-- horizontal box --><div class="MenuItemLabel borderbox clearfix grpelem" id="u8400-4"><!-- content --><p>Inicio</p></div></a>
@@ -81,7 +81,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      </div>
     </div>
    </div>
-   <div class="verticalspacer" data-offset-top="193" data-content-above-spacer="586" data-content-below-spacer="88"></div>
+   <div class="verticalspacer" data-offset-top="193" data-content-above-spacer="598" data-content-below-spacer="87"></div>
    <div class="clearfix grpelem" id="pu172"><!-- group -->
     <div class="grpelem" id="u172"><!-- simple frame --></div>
     <div class="browser_width grpelem" id="u428-bw">
@@ -115,7 +115,7 @@ Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
-Muse.Utils.initWidget('#pamphletu8337', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu8337 */
+Muse.Utils.initWidget('#pamphletu8337', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu8337 */
 $('#u168-bw').registerPositionScrollEffect([{"in":[-Infinity,0],"speed":[null,0]},{"in":[0,Infinity],"speed":[null,0]}]);/* scroll effect */
 $('#u223-4').registerPositionScrollEffect([{"in":[-Infinity,0],"speed":[0,0]},{"in":[0,Infinity],"speed":[0,0]}]);/* scroll effect */
 $('#u7122').registerPositionScrollEffect([{"in":[-Infinity,0],"speed":[1,0]},{"in":[0,Infinity],"speed":[0,0]}]);/* scroll effect */
