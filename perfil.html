@@ -19,8 +19,8 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Perfil</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3784438662"/>
-  <link rel="stylesheet" type="text/css" href="css/master_master.css?crc=4186987140"/>
-  <link rel="stylesheet" type="text/css" href="css/perfil.css?crc=4280331643" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_master.css?crc=3913910695"/>
+  <link rel="stylesheet" type="text/css" href="css/perfil.css?crc=3785522726" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
@@ -57,9 +57,22 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
        </div>
       </div>
      </div>
+     <div class="popup_anchor">
+      <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix" id="u8347"><!-- group -->
+       <div class="clearfix grpelem" id="u8823-4"><!-- content -->
+        <p>X</p>
+       </div>
+      </div>
+     </div>
      <div class="ThumbGroup clearfix grpelem" id="u8351"><!-- none box -->
       <div class="popup_anchor">
-       <div class="Thumb popup_element transition" id="u8353"><!-- simple frame --></div>
+       <div class="Thumb popup_element clearfix" id="u8353"><!-- column -->
+        <div class="position_content" id="u8353_position_content">
+         <div class="colelem" id="u8826"><!-- simple frame --></div>
+         <div class="colelem" id="u8829"><!-- simple frame --></div>
+         <div class="colelem" id="u8832"><!-- simple frame --></div>
+        </div>
+       </div>
       </div>
      </div>
     </div>
@@ -67,7 +80,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
    <div class="clearfix grpelem" id="u1173-4"><!-- content -->
     <p><span id="u1173">*Próximamente*</span></p>
    </div>
-   <div class="verticalspacer" data-offset-top="207" data-content-above-spacer="586" data-content-below-spacer="88"></div>
+   <div class="verticalspacer" data-offset-top="207" data-content-above-spacer="598" data-content-below-spacer="87"></div>
    <div class="clearfix grpelem" id="pu172"><!-- group -->
     <div class="grpelem" id="u172"><!-- simple frame --></div>
     <div class="browser_width grpelem" id="u428-bw">
@@ -101,10 +114,10 @@ Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
-Muse.Utils.initWidget('#pamphletu8337', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'mouseout_click',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:false,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu8337 */
+Muse.Utils.initWidget('#pamphletu8337', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu8337 */
 $('#u168-bw').registerPositionScrollEffect([{"speed":[null,0],"in":[-Infinity,0]},{"speed":[null,0],"in":[0,Infinity]}]);/* scroll effect */
 $('#u223-4').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,0]},{"speed":[0,0],"in":[0,Infinity]}]);/* scroll effect */
-$('#pamphletu8337').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,7]},{"speed":[0,0],"in":[7,Infinity]}]);/* scroll effect */
+$('#pamphletu8337').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,3.35]},{"speed":[0,0],"in":[3.35,Infinity]}]);/* scroll effect */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};

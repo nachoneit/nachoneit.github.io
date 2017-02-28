@@ -1,14 +1,14 @@
-<manifest alg="2" build="2015.2.1.352" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="nachoneit.github.io" resolutions="1x,2x" timestamp="1488311127079">
+<manifest alg="2" build="2015.2.1.352" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="nachoneit.github.io" resolutions="1x,2x" timestamp="1488312362735">
   <folder name="css">
     <file name="site_global.css" crc="3784438662"/>
-    <file name="master_master.css" crc="4186987140" ref="lista:entradas:contacto-email:index:perfil:información:rrpp"/>
-    <file name="lista.css" crc="3987532363" ref="lista"/>
-    <file name="entradas.css" crc="317771539" ref="entradas"/>
-    <file name="contacto-email.css" crc="260017685" ref="contacto-email"/>
-    <file name="index.css" crc="3797929234" ref="index"/>
-    <file name="perfil.css" crc="4280331643" ref="perfil"/>
-    <file name="informaci_n.css" crc="4005079489" ref="información"/>
-    <file name="rrpp.css" crc="4256741880" ref="rrpp"/>
+    <file name="master_master.css" crc="3913910695" ref="lista:entradas:contacto-email:index:perfil:información:rrpp"/>
+    <file name="lista.css" crc="3901505756" ref="lista"/>
+    <file name="entradas.css" crc="253633449" ref="entradas"/>
+    <file name="contacto-email.css" crc="174007426" ref="contacto-email"/>
+    <file name="index.css" crc="34839835" ref="index"/>
+    <file name="perfil.css" crc="3785522726" ref="perfil"/>
+    <file name="informaci_n.css" crc="4236393000" ref="información"/>
+    <file name="rrpp.css" crc="4170716015" ref="rrpp"/>
   </folder>
   <folder name="assets">
     <file name="mobile-menu.mulib" crc="95576157" seo="true" mt="1422915314000"/>
@@ -28,7 +28,6 @@
     <file name="jquery.scrolleffects.js" crc="511146689" ref="index:entradas:perfil:información:contacto-email:rrpp:lista"/>
     <file name="html5shiv.js" crc="4241844378" ref="index:entradas:perfil:información:contacto-email:rrpp:lista"/>
     <file name="require.js" crc="4108833657" ref="index:entradas:perfil:información:contacto-email:rrpp:lista"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="271560940" ref="index"/>
   </folder>
   <folder name="images">
     <file name="master-favicon.ico" crc="3970250620" ref="index"/>
@@ -65,16 +64,12 @@
     <file name="bestiario contacto_2x.png" crc="4147741647" seo="true" ref="información"/>
     <file name="casino contacto.png" crc="3973111191" seo="true" ref="información"/>
     <file name="casino contacto_2x.png" crc="220300649" seo="true" ref="información"/>
-    <file name="hamburguesa menu.png" crc="3901633781" ref="index"/>
-    <file name="hamburguesa menu_2x.png" crc="352403877" ref="index"/>
-    <file name="hamburguesa menu x.png" crc="4294488782" ref="index"/>
-    <file name="hamburguesa menu x_2x.png" crc="171895549" ref="index"/>
   </folder>
-  <file name="index.html" crc="4289935022" seo="true" mt="1488311120388" redirect="true"/>
-  <file name="entradas.html" crc="2458745" seo="true" mt="1488311120388" redirect="true"/>
-  <file name="perfil.html" crc="4257318966" seo="true" mt="1488311120388" redirect="true"/>
-  <file name="información.html" crc="195657894" seo="true" mt="1488311120388" redirect="true"/>
-  <file name="contacto-email.html" crc="466493031" seo="true" mt="1488311120388" redirect="true"/>
-  <file name="rrpp.html" crc="445589020" seo="true" mt="1488311120388" redirect="true"/>
-  <file name="lista.html" crc="80030444" seo="true" mt="1488311120388" redirect="true"/>
+  <file name="index.html" crc="482703365" seo="true" mt="1488312347621" redirect="true"/>
+  <file name="entradas.html" crc="4101128048" seo="true" mt="1488312347621" redirect="true"/>
+  <file name="perfil.html" crc="3871696575" seo="true" mt="1488312347621" redirect="true"/>
+  <file name="información.html" crc="37887163" seo="true" mt="1488312347621" redirect="true"/>
+  <file name="contacto-email.html" crc="84718539" seo="true" mt="1488312347621" redirect="true"/>
+  <file name="rrpp.html" crc="26831073" seo="true" mt="1488312347621" redirect="true"/>
+  <file name="lista.html" crc="452927170" seo="true" mt="1488312347621" redirect="true"/>
 </manifest>
