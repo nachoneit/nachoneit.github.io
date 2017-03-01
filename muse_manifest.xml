@@ -1,14 +1,14 @@
-<manifest alg="2" build="2015.2.1.352" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="nachoneit.github.io" resolutions="1x,2x" timestamp="1488312362735">
+<manifest alg="2" build="2015.2.1.352" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="nachoneit.github.io" resolutions="1x,2x" timestamp="1488364335881">
   <folder name="css">
-    <file name="site_global.css" crc="3784438662"/>
-    <file name="master_master.css" crc="3913910695" ref="lista:entradas:contacto-email:index:perfil:información:rrpp"/>
-    <file name="lista.css" crc="3901505756" ref="lista"/>
-    <file name="entradas.css" crc="253633449" ref="entradas"/>
-    <file name="contacto-email.css" crc="174007426" ref="contacto-email"/>
-    <file name="index.css" crc="34839835" ref="index"/>
-    <file name="perfil.css" crc="3785522726" ref="perfil"/>
-    <file name="informaci_n.css" crc="4236393000" ref="información"/>
-    <file name="rrpp.css" crc="4170716015" ref="rrpp"/>
+    <file name="site_global.css" crc="427717540"/>
+    <file name="master_master.css" crc="206104389" ref="lista:entradas:contacto-email:index:perfil:información:rrpp"/>
+    <file name="lista.css" crc="4232130888" ref="lista"/>
+    <file name="entradas.css" crc="4030854697" ref="entradas"/>
+    <file name="contacto-email.css" crc="4236702660" ref="contacto-email"/>
+    <file name="index.css" crc="3964603093" ref="index"/>
+    <file name="perfil.css" crc="3978036253" ref="perfil"/>
+    <file name="informaci_n.css" crc="324982197" ref="información"/>
+    <file name="rrpp.css" crc="4161156248" ref="rrpp"/>
   </folder>
   <folder name="assets">
     <file name="mobile-menu.mulib" crc="95576157" seo="true" mt="1422915314000"/>
@@ -64,12 +64,13 @@
     <file name="bestiario contacto_2x.png" crc="4147741647" seo="true" ref="información"/>
     <file name="casino contacto.png" crc="3973111191" seo="true" ref="información"/>
     <file name="casino contacto_2x.png" crc="220300649" seo="true" ref="información"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="482703365" seo="true" mt="1488312347621" redirect="true"/>
-  <file name="entradas.html" crc="4101128048" seo="true" mt="1488312347621" redirect="true"/>
-  <file name="perfil.html" crc="3871696575" seo="true" mt="1488312347621" redirect="true"/>
-  <file name="información.html" crc="37887163" seo="true" mt="1488312347621" redirect="true"/>
-  <file name="contacto-email.html" crc="84718539" seo="true" mt="1488312347621" redirect="true"/>
-  <file name="rrpp.html" crc="26831073" seo="true" mt="1488312347621" redirect="true"/>
-  <file name="lista.html" crc="452927170" seo="true" mt="1488312347621" redirect="true"/>
+  <file name="index.html" crc="144981107" seo="true" mt="1488364319253" redirect="true"/>
+  <file name="entradas.html" crc="286606050" seo="true" mt="1488364319253" redirect="true"/>
+  <file name="perfil.html" crc="200168256" seo="true" mt="1488364319253" redirect="true"/>
+  <file name="información.html" crc="347005959" seo="true" mt="1488364319253" redirect="true"/>
+  <file name="contacto-email.html" crc="3871678337" seo="true" mt="1488364319253" redirect="true"/>
+  <file name="rrpp.html" crc="4271570823" seo="true" mt="1488364319253" redirect="true"/>
+  <file name="lista.html" crc="3906614559" seo="true" mt="1488364319253" redirect="true"/>
 </manifest>
